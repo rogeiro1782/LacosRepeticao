@@ -1,3 +1,8 @@
 <Solution>
+  <Project Path="Fatorial/Fatorial.csproj" Id="000bae65-c1b1-47d6-ab1f-e3961ecb9fcf" />
   <Project Path="LacosRepeticao/LacosRepeticao.csproj" />
+  <Project Path="NumerosPrimos/NumerosPrimos.csproj" Id="b412c715-fdaf-43eb-9dfb-fdd1e8788d80" />
+  <Project Path="Par-Impar/Par-Impar.csproj" Id="f86d5697-e41b-4b87-9579-852160bba52b" />
+  <Project Path="Sequenciafibonacci/Sequenciafibonacci.csproj" Id="0367c6b8-396f-44ae-9628-6bb2c5bd02bd" />
+  <Project Path="Tabuada/Tabuada.csproj" Id="2d07e6f6-ba88-4c28-92d2-5adf51ab2e9f" />
 </Solution>
