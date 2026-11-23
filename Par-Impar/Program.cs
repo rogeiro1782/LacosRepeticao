@@ -10,16 +10,16 @@ num = int.Parse(Console.ReadLine());
     {
         if (i % 2 != 0)
         {
-            Console.Write(i + " ");
+            Console.WriteLine(i);
         }
     }
+    Console.WriteLine();
 
-
-    for (int i = 1; i >= 1; i--)
+    for (int i = num; i >= 1; i--)
     {
         if (i % 2 == 0)
         {
-            Console.Write(i + " ");
+            Console.WriteLine(i);
         }
 
     }

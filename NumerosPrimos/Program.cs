@@ -1,30 +1,32 @@
-﻿Console.WriteLine("Núneros Primos");
-
-int num, cont = 0;
-
-Console.Write("Entre com um número: ");
-num = int.Parse(Console.ReadLine());
-
-for (int i = 2; i <= num; i++)
+﻿bool Primo(int num)
 {
-    cont = 0;
-    for (int j = i; j >= 2; j--) 
-    {
-        if (i % j == 0)
-        {
-            cont++;
-        }
-        if (cont > 1)
-        {
-            break;
-        }
-    }
+    if (num <= 2)
+        return false;          
 
-    if (cont <= 1)
+    for (int i = 2; i < num; i ++)
     {
-        Console.WriteLine(i);
-
+        if (num % i == 0)
+            return false;
     }
+    return true;
 }
 
+Console.Write("Digite um número: ");
+int num = int.Parse(Console.ReadLine());
 
+if (Primo(num))
+{
+    Console.WriteLine("É número primo.");
+}
+else
+{
+    Console.WriteLine("Não é número primo.");
+}
+for (int i = 2; i <= num; i++)
+{
+    if (Primo(i))
+    {
+        Console.WriteLine(i);
+    }
+}
+ 
